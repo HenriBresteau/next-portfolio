@@ -79,10 +79,7 @@ const Ocr = () => {
                     Premier projets en tant que developeur
                   </span>
                   <Box align="center" my={4}>
-                    <Link
-                      href="https://henribresteau.fr/henribresteau.fr/p1/index.html"
-                      isExternal
-                    >
+                    <Link href="/links/ocr/p1/index.html" isExternal>
                       <Button
                         rightIcon={<ChevronRightIcon />}
                         colorScheme="teal"
@@ -183,10 +180,7 @@ const Ocr = () => {
                     Découverte de JavaScript en Programation Orienté Objet
                   </span>
                   <Box align="center" my={4}>
-                    <Link
-                      href="https://henribresteau.fr/henribresteau.fr/p3/index.html"
-                      isExternal
-                    >
+                    <Link href="/links/ocr/p3/index.html" isExternal>
                       <Button
                         rightIcon={<ChevronRightIcon />}
                         colorScheme="teal"
@@ -236,10 +230,7 @@ const Ocr = () => {
                     Découverte de PHP en Programation Orienté Objet
                   </span>
                   <Box align="center" my={4}>
-                    <Link
-                      href="https://henribresteau.fr/henribresteau.fr/projet4/index.php"
-                      isExternal
-                    >
+                    <Link href="/links/ocr/p4/" isExternal>
                       <Button
                         rightIcon={<ChevronRightIcon />}
                         colorScheme="teal"
@@ -271,10 +262,7 @@ const Ocr = () => {
               <List>
                 <ListItem>
                   <Box align="center" my={4}>
-                    <Link
-                      href="https://henribresteau.fr/henribresteau.fr/p5/stage.pdf"
-                      target="_blank"
-                    >
+                    <Link href="/links/ocr/p5/stage.pdf" target="_blank">
                       <Button
                         rightIcon={<ChevronRightIcon />}
                         colorScheme="teal"
