@@ -44,10 +44,10 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <Link
-            href="https://henribresteau.fr/side-project/bac-a-sable/Frontend-Mentor/stats-preview-card/"
+            href="/links/side-project/bac-a-sable/Frontend-Mentor/stats-preview-card/index.html"
             isExternal
           >
-            https://henribresteau.fr/side-project/bac-a-sable/Frontend-Mentor/stats-preview-card/
+            /Frontend-Mentor/stats-preview-card/
             <ExternalLinkIcon mx="2px"> </ExternalLinkIcon>
           </Link>
         </ListItem>
@@ -78,10 +78,10 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <Link
-            href="https://henribresteau.fr/side-project/bac-a-sable/Frontend-Mentor/order-summary/"
+            href="/links/side-project/bac-a-sable/Frontend-Mentor/order-summary/index.html"
             isExternal
           >
-            https://henribresteau.fr/side-project/bac-a-sable/Frontend-Mentor/order-summary/
+            /Frontend-Mentor/order-summary/
             <ExternalLinkIcon mx="2px"> </ExternalLinkIcon>
           </Link>
         </ListItem>
