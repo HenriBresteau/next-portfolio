@@ -139,7 +139,7 @@ const Page = () => {
             Stack
           </Heading>
           <List ml={4} my={4}>
-            <ListItem my={4} d="flex">
+            <ListItem my={4} d="flex" flexWrap="wrap">
               <Heading
                 as="h4"
                 fontSize={16}
