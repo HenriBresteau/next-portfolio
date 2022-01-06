@@ -20,10 +20,10 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <Link
-            href="https://henribresteau.fr/side-project/bac-a-sable/avatar/"
+              href="/links/side-project/bac-a-sable/avatar/index.html"
             isExternal
           >
-            https://henribresteau.fr/side-project/bac-a-sable/avatar/
+            https://henribresteau.fr/links/side-project/bac-a-sable/avatar/index.html
             <ExternalLinkIcon mx="2px"> </ExternalLinkIcon>
           </Link>
         </ListItem>
