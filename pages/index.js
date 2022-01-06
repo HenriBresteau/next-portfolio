@@ -139,7 +139,12 @@ const Page = () => {
             Stack
           </Heading>
           <List ml={4} my={4}>
-            <ListItem my={4} d="flex" flexWrap="wrap">
+            <ListItem
+              my={4}
+              d="flex"
+              flexWrap="wrap"
+              alignItems={{ base: 'center', md: 'normal' }}
+            >
               <Heading
                 as="h4"
                 fontSize={16}
@@ -155,7 +160,11 @@ const Page = () => {
               <MetaC>Javascript es6</MetaC>
               <MetaB>PHP 7</MetaB>
             </ListItem>
-            <ListItem my={4} d="flex">
+            <ListItem
+              my={4}
+              d="flex"
+              alignItems={{ base: 'center', md: 'normal' }}
+            >
               <Heading
                 as="h4"
                 fontSize={16}
@@ -169,7 +178,11 @@ const Page = () => {
               <MetaB>React</MetaB>
               <Meta>Vue.Js</Meta>
             </ListItem>
-            <ListItem my={4} d="flex">
+            <ListItem
+              my={4}
+              d="flex"
+              alignItems={{ base: 'center', md: 'normal' }}
+            >
               <Heading
                 as="h4"
                 fontSize={16}
