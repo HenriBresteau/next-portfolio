@@ -15,7 +15,7 @@ import {
   IconButton,
   useColorModeValue
 } from '@chakra-ui/react'
-import { HamburgerIcon } from '@chakra-ui/icons'
+import { ExternalLinkIcon, HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 import { IoAttach } from 'react-icons/io5'
 
@@ -81,7 +81,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             href="/links/cv/CV_HB_2022_DevFront.pdf"
-            _target="_blank"
+            target="_blank"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -114,14 +114,13 @@ const Navbar = props => {
                 <NextLink href="/projets" passHref>
                   <MenuItem as={Link}>Projets parallèles</MenuItem>
                 </NextLink>
-                <NextLink
-                  href="https://www.henribresteau.fr/cv/CV_HB_DEV.pdf"
-                  passHref
-                >
+                <NextLink href="/links/cv/CV_HB_2022_DevFront.pdf" passHref>
                   <MenuItem
                     as={Link}
-                    href="https://www.henribresteau.fr/cv/CV_HB_DEV.pdf"
-                    _target="_blank"
+                    href="/links/cv/CV_HB_2022_DevFront.pdf"
+                    target="_blank"
+                    download="CV_Henri_Bresteau_DevFront"
+                    icon={<ExternalLinkIcon />}
                   >
                     CV
                   </MenuItem>
