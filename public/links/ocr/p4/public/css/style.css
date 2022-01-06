@@ -1,0 +1,496 @@
+@font-face {
+    font-family: "dk";
+    src: url("../fonts/dk.otf");
+}
+
+.navbar {
+    padding-top: 0px;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    margin-left: 10%;
+    margin-right: 5%;
+    height: 44px;
+}
+
+.nav-item {
+    font-size: 1.30em;
+    margin: 0 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: #03A9F4;
+}
+
+.bg-light {
+    border-bottom: 4px solid #45a1ff;
+    font-family: 'dk';
+}
+
+li.nav-item.active {
+    background-color: #45a1ff;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+header {
+    font-family: 'dk';
+}
+
+.page-header a {
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: larger;
+}
+
+.page-header {
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 220px;
+    min-width: 120px;
+    align-items: center;
+    border-bottom: 4px solid #45a1ff;
+    margin-top: 56px;
+}
+
+.page-header>h1 {
+    text-shadow: 1px 2px 1px #fff;
+    font-size: 4em;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/*-----SECTION -----*/
+section.post {
+    padding: 50px;
+}
+
+.headPost .date {
+    float: right;
+    font-size: small;
+}
+.readMore {
+    text-align: center;
+}
+.listPanel .date {
+    font-size: small;
+}
+footer p {
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 37px;
+    background-color: #45a1ff;
+    width: 100%;
+    height: 100px;
+    border-top: 4px solid #8bcbe0;
+}
+
+.framePost,
+.sectionPost,
+.about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.post,
+.blocPost {
+    border: 2px solid #45a1ff;
+    margin: 25px 0 25px 0;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.headPost {
+    color: white;
+    padding: 9px;
+    text-align: center;
+    border-radius: 5px;
+    background: linear-gradient(to left, #45a1ff, rgba(0, 0, 0, .0));
+}
+
+a.shadowText {
+    text-shadow: 1px -1px 0 rgba(0, 0, 0, 0.5);
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+.content {
+    padding: 10px;
+}
+
+.content-extract,
+.blocContentPost {
+    padding: 20px;
+    color: #222f3e;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+.comments {
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 15px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 15px;
+}
+
+.comments h3 {
+    font-size: 1.5em;
+    border-bottom: 1px dotted grey;
+    margin-bottom: auto;
+    padding: 5px;
+
+}
+
+.autorComment {
+    padding-top: 10px;
+}
+
+.contentComment {
+    border-bottom: 1px dashed grey;
+}
+
+.blocHeadPost {
+    text-align: center;
+    border-bottom: 1px solid #45a1ff;
+}
+
+.blocHeadPost h3 {
+    font-family: 'dk';
+    font-size: 3em;
+    text-shadow: 1px -1px 0 rgba(0, 0, 0, 0.5);
+    letter-spacing: .05em;
+    line-height: 1.5;
+}
+
+.commentsForm {
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.commentsForm textarea {
+    width: 90%;
+    min-height: 100px;
+    resize: vertical;
+}
+
+.commentsForm p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.commentForm p,
+.commentForm label,
+input[type="submit"] {
+    font-size: 1.2em;
+}
+
+.commentForm input[type="submit"],
+#loginFrame input[type="submit"],
+#adminloginFrame input[type="submit"],
+#subscribeFrame input[type="submit"],
+#adminLoginFrame input[type="submit"] {
+    margin: 15px;
+    padding: 10px;
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid #0a3d62;
+    background-color: #0a3d62;
+    color: white;
+    cursor: pointer;
+}
+
+.commentForm input[type="text"],
+.commentForm textarea {
+    margin-top: 20px;
+}
+
+
+#info {
+    text-align: center;
+}
+
+/* Login subscribe  */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+.loginBlock {
+    padding: 16px;
+    margin: 0 10%;
+    text-align: center;
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* ---- ABOUT ---- */
+#about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutBlock {
+    text-align: justify;
+    max-width: 1200px;
+    margin: 25px;
+    padding: 20px;
+}
+
+.headAbout h3 {
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+}
+
+.contentAbout p {
+    font-size: 1.1em;
+    vertical-align: middle;
+}
+
+.contentAbout #photo {
+    float: left;
+    margin-right: 40px;
+}
+
+.contentAbout #livre {
+    float: right;
+    margin-left: 40px;
+}
+
+blockquote {
+    margin: 10px 10%;
+    text-align: center;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+blockquote footer {
+    text-align: right;
+}
+
+/* ________________ ADMIN __________________ */
+
+
+#adminLoginFrame,
+#adminBlock {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 45px;
+}
+
+#adminLoginFrame h3 {
+    font-size: 1.8em;
+}
+
+#adminPanel h1,
+#createPost h1 {
+    text-align: center;
+}
+
+#adminPanel {
+    margin-top: 68px;
+}
+
+#writePost {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+#writePost a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.head {
+    padding: 10px;
+}
+
+.listPanel {
+    width: 1200px;
+    margin: 20px;
+    border: 1px solid grey;
+    padding: 10px 30px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.listPanel a {
+    text-decoration: none;
+}
+
+.listPanel:hover {
+    background-color: #dfe6e9;
+}
+
+.nbReports {
+    float: right;
+    border: 2px solid #ff9f43;
+    border-radius: 15px;
+    margin: -8px 0 0 5px;
+    padding: 7px;
+    color: #ff9f43;
+    font-weight: bold;
+}
+
+.report a {
+    text-decoration: none;
+    color: black;
+}
+
+.report {
+    float: right;
+    margin: 10px;
+}
+
+.removeComment,
+.removePost,
+.removeMember {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#updateBlock {
+    padding: 1% 10%;
+}
+
+#updateBlock form {
+    padding: 50px;
+}
+
+.fa-trash-alt{
+    color: #dc3545;
+}
+.linkAdmin,
+th {
+    color: #0a3d62;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.returnLink {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#adminFrame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#postManage,
+#commentManage,
+#memberManage {
+    padding: 20px;
+    color: #222f3e;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+#postManage h3,
+#commentManage h3,
+#memberManage h3 {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+/* ________________ ERROR / SUCCESS / INFO __________________ */
+
+#error,
+#success,
+#info {
+    text-align: center;
+    padding: 12px 20px;
+}
+
+#error a,
+#success a,
+#info a {
+    font-weight: bold;
+}
+
+#error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+#success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+#success a {
+    color: #0b2e13;
+}
+
+#info {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+
+#info a {
+    color: #002752;
+}
