@@ -80,7 +80,7 @@ const Navbar = props => {
             Projets parallèles
           </LinkItem>
           <LinkItem
-            href="https://www.henribresteau.fr/cv/CV_HB_DEV.pdf"
+            href="/links/cv/CV_HB_2022_DevFront.pdf"
             _target="_blank"
             path={path}
             display="inline-flex"
