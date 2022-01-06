@@ -1,0 +1,147 @@
+@media screen and (max-width: 786px) {
+  h1 {
+    font-size: 28px; }
+
+  nav {
+    margin-right: 10px; }
+    nav li {
+      padding-left: 5px; }
+
+  #texte-banniere {
+    top: 15%; }
+
+  #banniere {
+    height: 300px; }
+    #banniere h2 {
+      width: 88%;
+      font-size: 17px; }
+
+  section {
+    padding-top: 10%; }
+
+  #ex-services {
+    display: block; }
+
+  #ordi {
+    width: 100%; }
+    #ordi img {
+      width: 100%; }
+
+  #description {
+    margin: 0 38px; }
+
+  .texte h2 {
+    font-size: 30px; }
+
+  #portfolio {
+    width: auto; }
+
+  #contact iframe {
+    width: 100%;
+    height: auto;
+    position: relative; }
+
+  #infos {
+    width: 100%;
+    margin: 0px;
+    text-align: center; }
+ input[type=text], input[type=email], textarea {
+   text-align:center;
+ }
+  }
+
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 20px; }
+
+  header{
+    width:425px;
+  }
+  #logo{
+    margin-left:20px;
+  }
+  nav li {
+    display: flex; 
+    }
+  nav li:hover {
+    border-top:none;
+    padding-top: 0; }
+  nav a:hover {
+    font-size: unset;
+  }  
+  
+  #texte-banniere {
+    left: 15%;
+    top: 10%; }
+
+  #banniere {
+    height: 200px;     
+     }
+
+    #banniere h1 {
+      width: 100%; }
+    #banniere h2 {
+      width: 88%;
+      font-size: 15px; }
+      #banniere a{
+        font-size: 12px;
+      }
+     .conteneur{
+       height: 25px;     
+       width: 50px;
+     }
+     .conteneur .cercle{
+       width: 50px;
+       height: 50px;
+       border-radius: 25px;
+     }
+     .conteneur .fas{
+       
+font-size: 20px;
+       
+margin: 0 17px;
+     }
+
+  section {
+    padding-top: 10%; }
+    h2{
+      font-size:32px;
+    }
+  #titre-service p,#titre-projet p {
+    width:100%;
+    font-size:15px;
+  }
+
+
+  #ex-services {
+    display: block; }
+
+   #description {
+    margin: 10px; }
+
+  .texte {
+    float:none;
+    padding-left: 100px;
+    padding-top: 27px;
+    width:98%;
+    }
+    .texte h2 {
+      font-size: 20px; }
+      
+  #menu-projet{
+    display:unset;
+  }
+  #portfolio {
+    width: 100%; }
+
+  figure {
+    padding: 0 5%; }
+
+  #contact iframe {
+    display: none; }
+
+  #infos {
+    width: 100%;
+    margin: 0; } 
+}

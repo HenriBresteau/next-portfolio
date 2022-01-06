@@ -1,0 +1,98 @@
+/*--------------  DEBUT PROJET--------------  */
+#projet{
+    background-color: #F5F5F5;
+    }
+    
+    #titre-projet {
+    h2 {
+      text-align: center;
+      text-transform: uppercase;
+      }
+    
+    
+    p {
+      text-align: center;
+      width: 600px;
+      margin: auto;
+      display: block;
+    }
+    }
+    #menu-projet {
+      justify-content: center;
+      display: flex;
+    
+      ul {
+        list-style-type: none;
+        display: flex;
+      }
+    
+      li {
+        display: inline;
+        background-color:#E5E5E5;
+        padding: 12px;
+        color: #64686D;
+        border-bottom: 3px solid currentColor;
+        font-family: 'Roboto';
+    
+        i{
+          position:relative;
+          color: #468CAD;
+          top: 27px;
+          right: 30px;
+        }
+          &:first-child{
+          border-radius:5px 0 0 5px;
+          color:white;
+          background-color: #5cadd3;
+          border-bottom:3px solid #468CAD;}
+          &:last-child{
+          border-radius:0 5px 5px 0;
+          }           
+      }
+    }
+    
+    #portfolio{
+      margin:auto;
+      width: 86%;
+    }
+    figure {
+      display: inline-flex;
+      flex-flow: column;
+      width: 300px;
+      position: relative;
+    
+    
+        img {
+          display: block;
+          width: 300px;
+          height: 200px;
+        }
+    
+        figcaption{
+          position:absolute;
+          bottom:0;
+          width: 100%;
+          height: 33%;
+          background-color: rgba($color: #000000, $alpha: 0.5);
+          opacity: 0;
+          padding-left: 19px;
+          line-height: 45%
+        }
+        i{
+          position: absolute;
+          left: 81%;
+          top: -30%;
+          background-color: #4494BB;
+          color: white;
+          border-radius: 50%;
+          border: 1px solid;
+          padding: 10px;
+        }
+        h3,p{
+          color:white;
+        }
+      &:hover figcaption {
+      opacity: 1;
+    }
+    }
+    /* -------------- FIN PROJET -------------- */

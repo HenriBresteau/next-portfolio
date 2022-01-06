@@ -1,0 +1,96 @@
+/*--------------  DEBUT SERVICES--------------  */
+#titre-service h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .trait {
+    width: 150px;
+    background-color: gray;
+    margin: -20px auto 25px;
+    padding-left: 65px;
+    height: 1px;
+    position : relative;
+  }
+  
+  .tourblanc {
+    padding: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: -9px;
+  
+  
+     > .pointbleu {
+        width: 16px;
+        height: 16px;
+        border-radius: 10px;
+        background-color: #5cadd3;
+  }
+  }
+  #titre-service p {
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    display: block;
+  }
+  
+  #ex-services {
+    display: flex;
+  }
+  
+  #ordi {
+    margin-top: 35px;
+    width:40%;
+    img {
+    width: 510px;
+    height: 319px;
+    }
+  }
+  
+  .services-icone-taille {
+    float: left;
+    vertical-align: top;
+    margin-top: 24px;
+  }
+  
+  .services-icone {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    position: relative;
+  
+    .fas {
+    padding: 17px;
+    color: #5cadd3;
+     
+    }
+    .fa-burn{
+    padding-left:20px;
+    }
+  }
+  
+  #description {
+    display: flex;
+    flex-direction: column;
+    margin: 65px 85px;
+  
+    i {
+      font-size: 30px;
+    }
+  
+    .tourblanc {
+    top: 22px;
+    margin-left: 52px;
+    }
+  }
+  
+  .texte {
+  float:right;
+  width: 85%;
+  }
+  
+  /*--------------  FIN SERVICES--------------  */

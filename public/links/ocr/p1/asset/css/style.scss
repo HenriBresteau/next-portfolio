@@ -1,0 +1,46 @@
+
+@import 'font';
+
+body {
+  margin: 0px;
+  padding: 0px;
+  & html {
+  height: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  
+  h2{
+  font-family:'Roboto Bold';
+  font-size: 42px;
+  color: #272727;
+  }
+  
+}
+main {
+  margin-top:89px;
+  h2 {
+  color: #242424;
+  }
+  p {
+  color: #686C71;
+  font-family: 'Roboto';
+  }
+}
+section{
+  padding-top:4%;
+}
+
+@import 'menu';
+
+@import 'banniere';
+
+@import 'services';
+
+@import 'projet';
+
+@import 'contact';
+
+@import'media';

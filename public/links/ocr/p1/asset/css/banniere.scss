@@ -1,0 +1,88 @@
+/*-------------- DEBUT BANNIERE-------------- */
+#banniere {
+    height: 550px;  
+    background-image: url("../img/slider/bg1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow: hidden;
+    position: relative;
+  
+    strong {
+      color: #5cadd3;
+    }
+  
+    h1 {
+      margin: 0;
+      color: white;
+      width: 590px;
+      text-transform: uppercase;
+    }
+  
+    h2 {
+      color: white;
+      margin-bottom: 25px;
+      font-size: 20px;
+    }
+  
+    a {
+      text-decoration: none;
+      color: white;
+      background-color: #5cadd3;
+      padding: 10px 10px 10px 10px;
+      border-radius: 3px;
+      box-shadow: 0px 2px 2px #4494BB;
+      font-family: 'Roboto Bold';
+    }
+  }
+  
+  #texte-banniere {
+    width: 80%;
+    position: absolute;
+    top: 180px;
+    left: 135px;
+  }
+  
+  #trait-banniere {
+    height: 5px;
+    width: 100px;
+    background-color: #5cadd3;
+    position: absolute;
+    bottom: 0px;
+  }
+  .droit{
+    transform:rotate(90deg);
+    left: -20px;
+    top:50%;
+    }
+  .gauche{
+    transform:rotate(-90deg);
+    right: -20px;
+    top:50%;
+    float: right;
+  }
+  .conteneur {
+    height:35px;
+    width:70px;
+    overflow:hidden;
+    position: absolute;
+  
+  .cercle {
+    margin:0px;
+    height:70px;
+    width:70px;
+    border-radius:35px;
+    background-color:#343434;
+    opacity:0.9;
+  }
+  .fas {
+    color: white;
+    font-size: 25px;
+    margin: 6px 28px;
+    transform:rotate(90deg);
+  }
+  .cercle:hover{
+  cursor: pointer;
+  }
+  
+  }
+  /*--------------  FIN BANNIERE -------------- */

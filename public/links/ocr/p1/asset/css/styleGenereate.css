@@ -1,0 +1,485 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url("../font/Roboto-Regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url("../font/Roboto-Bold.ttf");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  margin: 0px;
+  padding: 0px; }
+  body html {
+    height: 100%; }
+
+* {
+  box-sizing: border-box; }
+  * h2 {
+    font-family: 'Roboto Bold';
+    font-size: 42px;
+    color: #272727; }
+
+main {
+  margin-top: 89px; }
+  main h2 {
+    color: #242424; }
+  main p {
+    color: #686C71;
+    font-family: 'Roboto'; }
+
+section {
+  padding-top: 4%; }
+
+/*--------------  Debut HEADER--------------  */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  height: 90px;
+  top: 0px;
+  background-color: white;
+  z-index: 2; }
+
+#logo {
+  background-image: url("../img/logo.png");
+  width: 261px;
+  height: 57px;
+  display: flex;
+  margin-left: 13%; }
+
+nav {
+  margin-right: 8%; }
+  nav ul {
+    list-style-type: none;
+    padding-left: 0px; }
+  nav li {
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px; }
+  nav a {
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: #181819;
+    text-decoration: none; }
+  nav li:hover {
+    border-top: 2px solid #5cadd3;
+    padding-top: 35px; }
+  nav a:hover {
+    font-size: 18px; }
+
+/*--------------  Fin Header--------------  */
+/*-------------- DEBUT BANNIERE-------------- */
+#banniere {
+  height: 550px;
+  background-image: url("../img/slider/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative; }
+  #banniere strong {
+    color: #5cadd3; }
+  #banniere h1 {
+    margin: 0;
+    color: white;
+    width: 590px;
+    text-transform: uppercase; }
+  #banniere h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px; }
+  #banniere a {
+    text-decoration: none;
+    color: white;
+    background-color: #5cadd3;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px #4494BB;
+    font-family: 'Roboto Bold'; }
+
+#texte-banniere {
+  width: 80%;
+  position: absolute;
+  top: 180px;
+  left: 135px; }
+
+#trait-banniere {
+  height: 5px;
+  width: 100px;
+  background-color: #5cadd3;
+  position: absolute;
+  bottom: 0px; }
+
+.droit {
+  transform: rotate(90deg);
+  left: -20px;
+  top: 50%; }
+
+.gauche {
+  transform: rotate(-90deg);
+  right: -20px;
+  top: 50%;
+  float: right; }
+
+.conteneur {
+  height: 35px;
+  width: 70px;
+  overflow: hidden;
+  position: absolute; }
+  .conteneur .cercle {
+    margin: 0px;
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    background-color: #343434;
+    opacity: 0.9; }
+  .conteneur .fas {
+    color: white;
+    font-size: 25px;
+    margin: 6px 28px;
+    transform: rotate(90deg); }
+  .conteneur .cercle:hover {
+    cursor: pointer; }
+
+/*--------------  FIN BANNIERE -------------- */
+/*--------------  DEBUT SERVICES--------------  */
+#titre-service h2 {
+  text-align: center;
+  text-transform: uppercase; }
+
+.trait {
+  width: 150px;
+  background-color: gray;
+  margin: -20px auto 25px;
+  padding-left: 65px;
+  height: 1px;
+  position: relative; }
+
+.tourblanc {
+  padding: 2px;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: -9px; }
+  .tourblanc > .pointbleu {
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: #5cadd3; }
+
+#titre-service p {
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  display: block; }
+
+#ex-services {
+  display: flex; }
+
+#ordi {
+  margin-top: 35px;
+  width: 40%; }
+  #ordi img {
+    width: 510px;
+    height: 319px; }
+
+.services-icone-taille {
+  float: left;
+  vertical-align: top;
+  margin-top: 24px; }
+
+.services-icone {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  position: relative; }
+  .services-icone .fas {
+    padding: 17px;
+    color: #5cadd3; }
+  .services-icone .fa-burn {
+    padding-left: 20px; }
+
+#description {
+  display: flex;
+  flex-direction: column;
+  margin: 65px 85px; }
+  #description i {
+    font-size: 30px; }
+  #description .tourblanc {
+    top: 22px;
+    margin-left: 52px; }
+
+.texte {
+  float: right;
+  width: 85%; }
+
+/*--------------  FIN SERVICES--------------  */
+/*--------------  DEBUT PROJET--------------  */
+#projet {
+  background-color: #F5F5F5; }
+
+#titre-projet h2 {
+  text-align: center;
+  text-transform: uppercase; }
+#titre-projet p {
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  display: block; }
+
+#menu-projet {
+  justify-content: center;
+  display: flex; }
+  #menu-projet ul {
+    list-style-type: none;
+    display: flex; }
+  #menu-projet li {
+    display: inline;
+    background-color: #E5E5E5;
+    padding: 12px;
+    color: #64686D;
+    border-bottom: 3px solid currentColor;
+    font-family: 'Roboto'; }
+    #menu-projet li i {
+      position: relative;
+      color: #468CAD;
+      top: 27px;
+      right: 30px; }
+    #menu-projet li:first-child {
+      border-radius: 5px 0 0 5px;
+      color: white;
+      background-color: #5cadd3;
+      border-bottom: 3px solid #468CAD; }
+    #menu-projet li:last-child {
+      border-radius: 0 5px 5px 0; }
+
+#portfolio {
+  margin: auto;
+  width: 86%; }
+
+figure {
+  display: inline-flex;
+  flex-flow: column;
+  width: 300px;
+  position: relative; }
+  figure img {
+    display: block;
+    width: 300px;
+    height: 200px; }
+  figure figcaption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 33%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    padding-left: 19px;
+    line-height: 45%; }
+  figure i {
+    position: absolute;
+    left: 81%;
+    top: -30%;
+    background-color: #4494BB;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 10px; }
+  figure h3, figure p {
+    color: white; }
+  figure:hover figcaption {
+    opacity: 1; }
+
+/* -------------- FIN PROJET -------------- */
+/*-------------- DEBUT CONTACT ------------------*/
+#contact {
+  padding: 5%; }
+
+#contact iframe {
+  width: 92%;
+  height: 600px;
+  position: absolute;
+  z-index: 0; }
+
+#infos {
+  margin: 10px 63%;
+  z-index: 1;
+  position: relative;
+  padding: 10px;
+  background: #F5F5F5;
+  opacity: 0.9;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 15px; }
+  #infos h2 {
+    line-height: 0.4; }
+  #infos h3 {
+    font-size: 17px; }
+
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 6px;
+  margin-bottom: 16px; }
+
+input[type=submit] {
+  background-color: #5cadd3;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid #5cadd3;
+  border-radius: 5px;
+  cursor: pointer; }
+
+/*-------------- FIN CONTACT ------------------*/
+@media screen and (max-width: 786px) {
+  h1 {
+    font-size: 28px; }
+
+  nav {
+    margin-right: 10px; }
+
+  nav li {
+    padding-left: 5px; }
+
+  #texte-banniere {
+    top: 15%; }
+
+  #banniere {
+    height: 300px; }
+
+  #banniere h2 {
+    width: 88%;
+    font-size: 17px; }
+
+  section {
+    padding-top: 10%; }
+
+  #ex-services {
+    display: block; }
+
+  #ordi {
+    width: 100%; }
+
+  #ordi img {
+    width: 100%; }
+
+  #description {
+    margin: 0 38px; }
+
+  .texte h2 {
+    font-size: 30px; }
+
+  #portfolio {
+    width: auto; }
+
+  #contact iframe {
+    width: 100%;
+    height: auto;
+    position: relative; }
+
+  #infos {
+    width: 100%;
+    margin: 0px;
+    text-align: center; }
+
+  input[type=text], input[type=email], textarea {
+    text-align: center; } }
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 20px; }
+
+  header {
+    width: 425px; }
+
+  #logo {
+    margin-left: 20px; }
+
+  nav li {
+    display: flex; }
+
+  nav li:hover {
+    border-top: none;
+    padding-top: 0; }
+
+  nav a:hover {
+    font-size: unset; }
+
+  #texte-banniere {
+    left: 15%;
+    top: 10%; }
+
+  #banniere {
+    height: 200px; }
+
+  #banniere h1 {
+    width: 100%; }
+
+  #banniere h2 {
+    width: 88%;
+    font-size: 15px; }
+
+  #banniere a {
+    font-size: 12px; }
+
+  .conteneur {
+    height: 25px;
+    width: 50px; }
+
+  .conteneur .cercle {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px; }
+
+  .conteneur .fas {
+    font-size: 20px;
+    margin: 0 17px; }
+
+  section {
+    padding-top: 10%; }
+
+  h2 {
+    font-size: 32px; }
+
+  #titre-service p, #titre-projet p {
+    width: 100%;
+    font-size: 15px; }
+
+  #ex-services {
+    display: block; }
+
+  #description {
+    margin: 10px; }
+
+  .texte {
+    float: none;
+    padding-left: 100px;
+    padding-top: 27px;
+    width: 98%; }
+
+  .texte h2 {
+    font-size: 20px; }
+
+  #menu-projet {
+    display: unset; }
+
+  #portfolio {
+    width: 100%; }
+
+  figure {
+    padding: 0 5%; }
+
+  #contact iframe {
+    display: none; }
+
+  #infos {
+    width: 100%;
+    margin: 0; } }
+
+/*# sourceMappingURL=styleGenereate.css.map */
