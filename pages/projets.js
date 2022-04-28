@@ -8,6 +8,7 @@ import thumbDyma from '../public/images/projet/projet_Dyma.png'
 import thumbVivino from '../public/images/projet/projet_vivino.png'
 import thumbAvatar from '../public/images/projet/projet_avatar.png'
 import thumbFrontendMentor from '../public/images/projet/projet_Order-Summary.png'
+import thumbScrimba from '../public/images/projet/projet_scrimba.png'
 import Layout from '../components/layouts/article'
 import { IoGameController, IoLogoReact, IoLogoVue } from 'react-icons/io5'
 
@@ -35,6 +36,11 @@ const Projets = () => {
           <Section>
             <WorkGridItem id="dolla" title="Dolla" thumbnail={thumbDolla}>
               React Styled components
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem id="scrimba" title="Scrimba" thumbnail={thumbScrimba}>
+              Learn react
             </WorkGridItem>
           </Section>
         </SimpleGrid>
