@@ -33,7 +33,7 @@ const Missive = () => {
             <h3 className="text-normal text-a padding-right-xlarge text-700">
               Offre 11180
             </h3>
-            <span className="text-xsmall	text-d"></span>CHF 895.82</span>
+            <span className="text-xsmall	text-d">CHF 895.82</span>
           </div>
         </div>
       </div>
