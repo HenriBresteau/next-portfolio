@@ -7,15 +7,6 @@ export default class Document extends NextDocument {
     return (
       <Html lang="en">
         <Head />
-        <script
-          src="https://integrations.missiveapp.com/missive.js"
-          defer
-        ></script>
-
-        <link
-          href="https://integrations.missiveapp.com/missive.css"
-          rel="stylesheet"
-        ></link>
         <body>
           <ColorModeScript initialColorMode={theme.config.initialColorMode} />
           <Main />
