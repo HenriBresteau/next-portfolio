@@ -19,16 +19,16 @@ import { ExternalLinkIcon, HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 import { IoAttach } from 'react-icons/io5'
 
-const LinkItem = ({ href, path, children, _target, ...props }) => {
+const LinkItem = ({ href, path, children, ...props }) => {
   const active = path === href
   const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
+
   return (
     <NextLink href={href} passHref>
       <Link
         p={2}
         bg={active ? 'glassTeal' : undefined}
         color={active ? '#202023' : inactiveColor}
-        _target={_target}
         {...props}
       >
         {children}
@@ -80,16 +80,16 @@ const Navbar = props => {
             Projets parallèles
           </LinkItem>
           <LinkItem
-            href="/links/cv/CV_HB_2022_DevFront.pdf"
-            target="_blank"
+            isExternal
+            href="/links/cv/CV_Alternant.pdf"
             path={path}
             display="inline-flex"
             alignItems="center"
             style={{ gap: 6 }}
             pr={2}
           >
-            CV
             <IoAttach size="1.25rem" />
+            CV
           </LinkItem>
         </Stack>
 
@@ -114,17 +114,14 @@ const Navbar = props => {
                 <NextLink href="/projets" passHref>
                   <MenuItem as={Link}>Projets parallèles</MenuItem>
                 </NextLink>
-                <NextLink href="/links/cv/CV_HB_2022_DevFront.pdf" passHref>
-                  <MenuItem
-                    as={Link}
-                    href="/links/cv/CV_HB_2022_DevFront.pdf"
-                    target="_blank"
-                    download="CV_Henri_Bresteau_DevFront"
-                    icon={<ExternalLinkIcon />}
-                  >
-                    CV
-                  </MenuItem>
-                </NextLink>
+                <MenuItem
+                  as={Link}
+                  href="/links/cv/CV_Alternant.pdf"
+                  download="/links/cv/CV_Alternant.pdf"
+                  icon={<ExternalLinkIcon />}
+                >
+                  CV
+                </MenuItem>
               </MenuList>
             </Menu>
           </Box>

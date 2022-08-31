@@ -49,7 +49,9 @@ const Page = () => {
             <Heading as="h2" variant="page-title" fontSize="2.5rem">
               Henri Bresteau
             </Heading>
-            <p>Developpeur Web ( Front - UX/UI )</p>
+            <p>
+              Alternance - Concepteur D&eacute;veloppeur D&apos;Applications
+            </p>
           </Box>
           <Box
             flexShrink={0}
@@ -71,10 +73,11 @@ const Page = () => {
             A propos
           </Heading>
           <Paragraphe>
-            Passionné par le domaine du web, je suis développeur depuis
-            maintenant 2 ans orienté Front-end. <br />
-            Je cherche actuellement à rejoindre une équipe autour d’un projet
-            qui me permettra d&apos;évoluer professionnellement.
+            Passionn&eacute; par le domaine du web, j&apos;ai commenc&eacute; le
+            d&eacute;veloppement depuis maintenant 3 ans. <br />
+            Je suis actuellement en recherche d&apos;une alternance afin
+            d&apos;&eacute;voluer dans le m&eacute;tier et
+            d&apos;acqu&eacute;rir de l&apos;exp&eacute;rience.
           </Paragraphe>
         </Section>
 
@@ -119,7 +122,7 @@ const Page = () => {
             Interventions techniques sur matériels informatiques.
           </BioSection>
           <BioSection>
-            <BioYear>2019 à 2021</BioYear>
+            <BioYear>2019 à 2022</BioYear>
             Développeur Indépendant :
             <Box align="center" my={4}>
               <NextLink href="/projets">
@@ -131,6 +134,16 @@ const Page = () => {
                 </Button>
               </NextLink>
             </Box>
+          </BioSection>
+          <BioSection>
+            <BioYear>2022 à 2023</BioYear>
+            Recherche d&apos;alternance avec{' '}
+            <Link
+              href="/links/cv/brochure-alternance-iscod.pdf"
+              target="_blank"
+            >
+              ISCOD
+            </Link>
           </BioSection>
         </Section>
 
