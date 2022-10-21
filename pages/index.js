@@ -25,7 +25,8 @@ import {
   IoCube,
   IoLogoGithub,
   IoLogoLinkedin,
-  IoMailOutline
+  IoMailOutline,
+  IoNewspaper
 } from 'react-icons/io5'
 import { GridItem } from '../components/grid-item'
 import { Meta, MetaB, MetaC } from '../components/projet'
@@ -186,10 +187,28 @@ const Page = () => {
                 mr={4}
               >
                 <IoBook style={{ marginRight: '0.5rem' }} fontSize={20} />
-                Framework :
+                Framework JS :
               </Heading>
               <MetaB>React</MetaB>
-              <Meta>Vue.Js</Meta>
+              <Meta>Next.js</Meta>
+            </ListItem>
+            <ListItem
+              my={4}
+              d="flex"
+              alignItems={{ base: 'center', md: 'normal' }}
+            >
+              <Heading
+                as="h4"
+                fontSize={16}
+                d="flex"
+                alignItems="center"
+                mr={4}
+              >
+                <IoNewspaper style={{ marginRight: '0.5rem' }} fontSize={20} />
+                Librairie CSS :
+              </Heading>
+              <MetaB>Tailwind</MetaB>
+              <Meta>Chakra Ui</Meta>
             </ListItem>
             <ListItem
               my={4}
@@ -207,7 +226,7 @@ const Page = () => {
                 CMS / Bundler :
               </Heading>
               <MetaB>WordPress</MetaB>
-              <MetaC>Parcel</MetaC>
+              <MetaC>Vite</MetaC>
             </ListItem>
           </List>
         </Section>

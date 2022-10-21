@@ -20,6 +20,16 @@ export const Title = ({ children }) => (
 export const WorkImage = ({ src, alt }) => (
   <Image borderRadius="lg" w="full" src={src} alt={alt} mb={4}></Image>
 )
+export const LogoImage = ({ src, alt }) => (
+  <Image
+    borderRadius="lg"
+    w="auto"
+    margin="0 auto"
+    src={src}
+    alt={alt}
+    mb={4}
+  ></Image>
+)
 
 export const Meta = ({ children }) => (
   <Badge colorScheme="green" mr={2}>

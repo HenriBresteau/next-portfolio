@@ -3,14 +3,13 @@ import { WorkGridItem } from '../components/grid-item'
 import Section from '../components/section'
 import thumbMarvelQuiz from '../public/images/projet/projet_marvel-quiz.png'
 import thumbDolla from '../public/images/projet/projet_Dolla.png'
-import thumbHuish from '../public/images/projet/projet_huish.png'
-import thumbDyma from '../public/images/projet/projet_Dyma.png'
-import thumbVivino from '../public/images/projet/projet_vivino.png'
 import thumbAvatar from '../public/images/projet/projet_avatar.png'
 import thumbFrontendMentor from '../public/images/projet/projet_Order-Summary.png'
+import thumbNft from '../public/images/projet/projet_nft.png'
 import thumbScrimba from '../public/images/projet/projet_scrimba.png'
 import Layout from '../components/layouts/article'
-import { IoGameController, IoLogoReact, IoLogoVue } from 'react-icons/io5'
+import { IoGameController, IoLogoReact } from 'react-icons/io5'
+import { SiFrontendmentor } from 'react-icons/si'
 
 const Projets = () => {
   return (
@@ -48,23 +47,26 @@ const Projets = () => {
         <Section delay={0.3}>
           <Divider my={6} />
           <Heading as="h3" fontSize={20} mb={4} d="flex" alignItems="center">
-            <IoLogoVue style={{ marginRight: '1rem' }} /> Vue.js
+            <SiFrontendmentor style={{ marginRight: '1rem' }} /> FrontendMentor
           </Heading>
         </Section>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id="huish" title="Huish" thumbnail={thumbHuish}>
-              Fake Whish
+            <WorkGridItem
+              id="frontendmentor"
+              title="FrontEndMentor"
+              thumbnail={thumbFrontendMentor}
+            >
+              Challenge Design
             </WorkGridItem>
           </Section>
           <Section>
-            <WorkGridItem id="vivino" title="Vinino" thumbnail={thumbVivino}>
-              Ma cave sur mesure
-            </WorkGridItem>
-          </Section>
-          <Section>
-            <WorkGridItem id="dyma" title="Dyma" thumbnail={thumbDyma}>
-              Boutique
+            <WorkGridItem
+              id="fem/card-nft"
+              title="Card NFT"
+              thumbnail={thumbNft}
+            >
+              Challenge Design
             </WorkGridItem>
           </Section>
         </SimpleGrid>
@@ -78,15 +80,6 @@ const Projets = () => {
           <Section>
             <WorkGridItem id="avatar" title="Avatar" thumbnail={thumbAvatar}>
               Avatar avec effet
-            </WorkGridItem>
-          </Section>
-          <Section>
-            <WorkGridItem
-              id="frontendmentor"
-              title="FrontEndMentor"
-              thumbnail={thumbFrontendMentor}
-            >
-              Challenge Design
             </WorkGridItem>
           </Section>
         </SimpleGrid>
