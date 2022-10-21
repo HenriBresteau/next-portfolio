@@ -17,8 +17,8 @@ import NextLink from 'next/link'
 import Layout from '../components/layouts/article'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
-import thumbMarvelQuiz from '../public/images/projet/projet_marvel-quiz.png'
-import thumbFrontendMentor from '../public/images/projet/projet_Order-Summary.png'
+import thumbTesla from '../public/images/projet/projet_tesla.png'
+import thumbFrontendMentor from '../public/images/projet/projet_nft.png'
 import {
   IoBook,
   IoCodeSlash,
@@ -290,19 +290,15 @@ const Page = () => {
             Mes derniers Projets
           </Heading>
           <SimpleGrid columns={[1, 2, 2]} gap={6} pt={2}>
-            <GridItem
-              href="works/marvel-quiz"
-              title="marvel-quiz"
-              thumbnail={thumbMarvelQuiz}
-            >
+            <GridItem href="works/tesla" title="tesla" thumbnail={thumbTesla}>
               React app
             </GridItem>
             <GridItem
-              href="works/frontendmentor"
+              href="works/fem/nft"
               title="FrontendMentor"
               thumbnail={thumbFrontendMentor}
             >
-              Order Summary
+              NFT Challenge
             </GridItem>
           </SimpleGrid>
         </Section>
