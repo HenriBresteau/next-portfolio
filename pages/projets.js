@@ -1,12 +1,11 @@
 import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import { WorkGridItem } from '../components/grid-item'
 import Section from '../components/section'
-import thumbMarvelQuiz from '../public/images/projet/projet_marvel-quiz.png'
-import thumbDolla from '../public/images/projet/projet_Dolla.png'
 import thumbAvatar from '../public/images/projet/projet_avatar.png'
-import thumbFrontendMentor from '../public/images/projet/projet_Order-Summary.png'
 import thumbNft from '../public/images/projet/projet_nft.png'
+import thumbFAQ from '../public/images/projet/projet_faq.png'
 import thumbScrimba from '../public/images/projet/projet_scrimba.png'
+import thumbTesla from '../public/images/projet/projet_tesla.png'
 import Layout from '../components/layouts/article'
 import { IoGameController, IoLogoReact } from 'react-icons/io5'
 import { SiFrontendmentor } from 'react-icons/si'
@@ -25,16 +24,11 @@ const Projets = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem
-              id="marvel-quiz"
-              title="marvel-quiz"
-              thumbnail={thumbMarvelQuiz}
+              id="tesla"
+              title="Clone de tesla"
+              thumbnail={thumbTesla}
             >
-              React app
-            </WorkGridItem>
-          </Section>
-          <Section>
-            <WorkGridItem id="dolla" title="Dolla" thumbnail={thumbDolla}>
-              React Styled components
+              React app - Tailwind
             </WorkGridItem>
           </Section>
           <Section>
@@ -53,19 +47,15 @@ const Projets = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem
-              id="frontendmentor"
-              title="FrontEndMentor"
-              thumbnail={thumbFrontendMentor}
+              id="fem/card-nft"
+              title="Card NFT"
+              thumbnail={thumbNft}
             >
               Challenge Design
             </WorkGridItem>
           </Section>
           <Section>
-            <WorkGridItem
-              id="fem/card-nft"
-              title="Card NFT"
-              thumbnail={thumbNft}
-            >
+            <WorkGridItem id="fem/faq" title="FAQ" thumbnail={thumbFAQ}>
               Challenge Design
             </WorkGridItem>
           </Section>
