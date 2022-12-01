@@ -6,6 +6,7 @@ import thumbNft from '../public/images/projet/projet_nft.png'
 import thumbFAQ from '../public/images/projet/projet_faq.png'
 import thumbScrimba from '../public/images/projet/projet_scrimba.png'
 import thumbTesla from '../public/images/projet/projet_tesla.png'
+import thumbNew from '../public/images/projet/projet_new.png'
 import Layout from '../components/layouts/article'
 import { IoGameController, IoLogoReact } from 'react-icons/io5'
 import { SiFrontendmentor } from 'react-icons/si'
@@ -45,6 +46,15 @@ const Projets = () => {
           </Heading>
         </Section>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section>
+            <WorkGridItem
+              id="fem/new-homepage"
+              title="News Homepage"
+              thumbnail={thumbNew}
+            >
+              Challenge Design
+            </WorkGridItem>
+          </Section>
           <Section>
             <WorkGridItem
               id="fem/card-nft"

@@ -18,7 +18,7 @@ import Layout from '../components/layouts/article'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import thumbTesla from '../public/images/projet/projet_tesla.png'
-import thumbFrontendMentor from '../public/images/projet/projet_nft.png'
+import thumbFrontendMentor from '../public/images/projet/projet_new.png'
 import {
   IoBook,
   IoCodeSlash,
@@ -294,11 +294,11 @@ const Page = () => {
               React app
             </GridItem>
             <GridItem
-              href="works/fem/nft"
+              href="works/fem/new-homepage"
               title="FrontendMentor"
               thumbnail={thumbFrontendMentor}
             >
-              NFT Challenge
+              New Homepage
             </GridItem>
           </SimpleGrid>
         </Section>
