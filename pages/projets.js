@@ -6,6 +6,7 @@ import thumbNft from '../public/images/projet/projet_nft.png'
 import thumbFAQ from '../public/images/projet/projet_faq.png'
 import thumbScrimba from '../public/images/projet/projet_scrimba.png'
 import thumbTesla from '../public/images/projet/projet_tesla.png'
+import thumbTyragehosor from '../public/images/projet/projet_tyragehosor.png'
 import thumbNew from '../public/images/projet/projet_new.png'
 import Layout from '../components/layouts/article'
 import { IoGameController, IoLogoReact } from 'react-icons/io5'
@@ -23,6 +24,15 @@ const Projets = () => {
           REACT
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section>
+            <WorkGridItem
+              id="tyragehosor"
+              title="Le Tyragehosor"
+              thumbnail={thumbTyragehosor}
+            >
+              React app - Tailwind
+            </WorkGridItem>
+          </Section>
           <Section>
             <WorkGridItem
               id="tesla"
