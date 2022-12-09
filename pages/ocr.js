@@ -262,7 +262,10 @@ const Ocr = () => {
               <List>
                 <ListItem>
                   <Box align="center" my={4}>
-                    <Link href="/links/ocr/p5/stage.pdf" target="_blank">
+                    <Link
+                      href="/links/ocr/p5/stage-studio218.pdf"
+                      target="_blank"
+                    >
                       <Button
                         rightIcon={<ChevronRightIcon />}
                         colorScheme="teal"
