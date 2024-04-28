@@ -25,17 +25,14 @@ const Work = () => (
         {' '}
         Application en Vue.js <br />
         Boutique, Tri, Panier automatisé. <br />
-        Onglet Admin : ajouter un nouveau objet, traitement du formulaire,
-        lien avec une BDD firebase
+        Onglet Admin : ajouter un nouveau objet, traitement du formulaire, lien
+        avec une BDD firebase
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link
-            href="https://henribresteau.fr/side-project/vue/dyma/"
-            isExternal
-          >
-            https://henribresteau.fr/side-project/vue/dyma/
+          <Link href="public/links/side-project/vue/dyma/index.html" isExternal>
+            /vue/dyma/index.html
             <ExternalLinkIcon mx="2px"> </ExternalLinkIcon>
           </Link>
         </ListItem>

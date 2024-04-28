@@ -81,7 +81,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             isExternal
-            href="/links/cv/CV_Alternant.pdf"
+            href="/links/cv/CV_HB_DevFront_2024.pdf"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -116,8 +116,8 @@ const Navbar = props => {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="/links/cv/CV_Alternant.pdf"
-                  download="/links/cv/CV_Alternant.pdf"
+                  href="/links/cv/CV_HB_DevFront_2024.pdf"
+                  download="/links/cv/CV_HB_DevFront_2024.pdf"
                   icon={<ExternalLinkIcon />}
                 >
                   CV
